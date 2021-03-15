@@ -1,0 +1,14 @@
+{
+    "private": true,
+    "scripts": {
+        "test": "SET NODE_ENV=test jest --watch"
+    },
+    "workspaces": [
+        "packages/*"
+    ],
+    "dependencies": {
+        "pg": "^8.5.1"
+    },
+    "test": "SET NODE_ENV=test & jest --watch"
+
+}
